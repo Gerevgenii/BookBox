@@ -14,9 +14,7 @@ BookBox — микросервис для управления книгами и
 ```bash
 docker-compose up -d
 make generate
-make build
-go run ./cmd/migrate
-go run ./cmd/server
+make buid
 ```
 
 ### На этапе создания
